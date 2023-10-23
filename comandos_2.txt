@@ -1,0 +1,52 @@
+
+	Atalhos: 
+		'Ctrl + c': Cancela o comando atual em funcionamento.
+
+		'Ctrl + z': Pausa o comando atual, em primeiro plano ou segundo plano.
+    
+		'Ctrl + d': Faz logout da sessão atual.
+    
+		'Ctrl + w': Apaga uma palavra na linha atual.
+    
+		'Ctrl + u': Apaga a linha inteira.
+    
+		'Ctrl + r': Busca um comando recente.
+    
+		'Ctrl + l / reset': Limpa o terminal linux.
+    
+		'exit': Saí do terminal.
+
+## Diretórios do Linux e Comandos do Sistema 
+
+
+ '/bin/':  Binários principais dos usuários;
+
+ 'boot/': Arquivos do sistema de Boot;
+
+ '/dev/': Arquivos de dispositivos;
+
+ '/etc/': Arquivos de configuração do sistema;
+   
+ '/home/': Diretório dos usuários comuns do sistema;
+   
+ '/lib/': Bibliotecas essenciais do sistema e os módulos do kernel;
+   
+ '/media/: Diretório de montagem e dispositivos;
+   
+ '/mnt/': Diretório de montagem de dispositivos - mesmo que -"media";
+   
+ '/opt/': Instalação de programas não oficiais da distribuição ou por conta do usuário;
+   
+ '/sbin/': Armazena arquivos executáveis que representam comandos administrativos. Exemplo: shutdown;
+   
+ '/srv/': Diretório para dados de serviços fornecidos pelo sistema;
+   
+ '/tmp/': Diretório para arquivos temporários;
+   
+ '/usr/': Segunda hierarquia do sistema, onde ficam os usuários comuns do sistema e programas;
+   
+ '/var/': Diretório com arquivos variáveis gerados pelos programas do sistema. Exemplo: Logs, Históricos, e-mail e cache;
+   
+ '/root/': Diretório de usuário root - Usuário root tem o poder total sobre o sistema.
+   
+ '/proc/': Diretório virtual pelo Kernel.
