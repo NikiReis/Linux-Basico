@@ -1,0 +1,204 @@
+	Comandos:
+		'pwd': É retornado o diretório em que o usuário está. Traz a saída local do terminal em que o usuário está logado;
+
+		'dir': Lista todos diretórios que há dentro do nível de diretório em que o usuário está navegando;
+
+		'ls': Lista todos os arquivos e diretórios que há dentro do nível de diretório em que o usuário está navegando;
+
+		'cd + " nome de um diretório": Muda o nível / Entra o diretório em que o usuário quer 'trabalhar' no terminal;
+
+		'mkdir' : Cria uma pasta / diretório, deve ser seguido do nome da pastas / diretório a ser criado;
+
+		'cd + espaço + nome diretorio + tab ': Auto completa o destino que estamos procurando, evitando assim que 
+digitemos grande linhas de comandos ou grande nomes de pastas,e então economizando tempo;
+
+		'cd .. ': Retorna um passo ou seja volta para a pasta anterior, retorna um nível na navegação;
+
+		'cd + espaço + / ': Saí do diretório em que o usuário está trbalhando e vai direto para a raiz do dispositivo de armazenamento;
+
+		'ls -l': Lista arquivos e diretórios com uma maior riqueza de detalhes;
+
+		'man + um comando': Retorna o manual do comando digitado, como ele funciona e alguns casos de uso desse comando;
+
+		'comando + (--help)': Retorna a mesma coisa que o comando 'man', mas em português;
+
+		'cd + "~" ': Retorna o usuário para o diretório pessoal;
+
+		'history': Lista o histórico de todos os comando previamente utilizados no terminal;
+
+		' !! ': Executa o último comando utilizado no terminal;    
+
+		'mv': Move arquivos para um diretório específico de nossa preferência;
+
+		'touch': Cria um arquivos vazios, sem nenhum conteúdo;
+
+    'rmdir' : Remove / deleta o diretório que especificarmos;
+
+		'rm' : Remove / deleta o(s) arquivo(s) que especificarmos;
+
+		'cat + nome de arquivo': Visualiza o que há dentro de um arquivo sem precisar abrir-lo;
+
+           	'tac + nome do arquivo': Inverte as linhas do que estiver escrito dentro de um arquivo;
+
+		'head + nome do arquivo': Mostra as dez primeiras linhas de um arquivo;    
+
+		'tail + nome do arquivo': Mostas as dez últimas linhas de um arquivo.
+
+		'tail + nome do arquivo + " > " + nome do arquivo ': Passa as dez últimas linhas de um arquivo para um outro arquivo caso o arquivo que o usuário deseja que receba a cópia não exista esse arquivo inexistente será criado instantâneamente;
+
+		'head + nome do arquivo + " > " + nome do arquivo ': Passa as dez primeiras linhas de um arquivo para um outro arquivo caso o arquivo que o usuário deseja que receba a cópia não exista esse arquivo inexistente será criado instantâneamente;                                                                          
+		'cal': Mostra o calendário do mês atual do usuário.
+
+		'date': Mostra a data atual do usuário, com detalhe de dia, mês, ano e horas/minutos/segundos em que foi feita a solicitação através do comando pelo terminal.
+
+		'tail/head + nome do arquivo + " >> " + nome do arquivo ': Adiciona as dez últimas linhas/dez primeiras linhas de um arquivo para um outro arquivo caso o arquivo que o usuário deseja que receba a cópia não exista esse arquivo inexistente será criado instantâneamente;
+
+		'grep + texto': Prcoura e marca - se houver ' o texto digitado pelo usuário dentro de um arquivo de preferência do usuário
+
+		' | + more ': Organiza arquivos muito grandes para um melhor visualização.
+
+		' | + less ': Organiza arquivos muito grandes para um melhor visualização.
+
+		' | ': Envia a sáida de um comando para a entrada de outro comando, permitindo a execução de dois comandos;
+
+		' > ': Redireciona a saída de um comando para outro comando ou arquivo;
+
+		' >> ': Redireciona a saída e adiciona a mesma para um comando ou arquivo;
+
+		' & ': Este operador permite usar dois comando e separar suas saídas no terminal;
+
+		' && ': Usado para que dois comando só sejam executados se o primeiro for executado com sucesso.
+
+		'lshw': Lista todos os dispositivos de hardware que o Linux achar.
+
+		'chmod': define quem tem permissão de fazer outras coisas dentro do arquivo (ler, editar, etc). 
+
+		'chown': define quem é o propietário de um arquivo;
+
+		'usermod -aG + username': Adiciona o usuário ao grupo de sudo, assim o usuário adicionado passa a ter privilégios de root.
+
+		'find -name + nome do arquivo': Busca se existe um arquivo usando o parâmetro do nome passado e retorna se o arquivo existe ou não, e caso exista, retorna o diretório onde o arquivo está.
+
+		'gzip': Cria um arquivo compactado do tipo gz.
+
+		'gunzip': Descompacta um arquivo do tipo gz.
+
+		'zip': Cria um arquivo compactado do tipo zip.
+
+		'unzip': Descompacta um arquivo do tipo zip.
+
+		'rar': Cria um arquivo compactado do tipo rar.
+
+		'rar -x': Descompacta um arquivo do tipo rar.
+
+		'bzip2': Cria um arquivo comnpactado do tipo bz2.
+
+		'bzip2 -d': Descompacta um arquivo do tipo bz2.
+
+		'tar': Arquiva um ou mais arquivos.
+
+		'tar -xvf': Descompacta um arquivo compactado e arquivado.
+
+		'Last': Exibe uma listagem de entrada e saída do usuário no sistema.
+
+		'Logname': Exibe o nome do usuário logado na seção atual.
+
+		'id': Exibe todos os identificadores do usuário logado na seção atual. Irá mostrar o usuário e os grupos no qual esse usuário pertence.
+
+		'passwd': quando utilizamos o comando 'cat' dentro do diretório '/etc/passwd' é exibido todos os usuários.	
+
+		'userdel -r + nome do usuário' será solicitada a senha do usuário que a pessoa está tentando deletar, caso a senha tenha sido digitada corretamente o usuário será deletado.
+
+		'passwd + nome do usuário': Altera a senha de login do usuário em questão.
+
+		'addgroup + nome do grupo': Cria um novo grupo
+
+		'adduser + nome do usuario + nome do grupo ': Cria um novo usuário e o adiciona ao grupo listado
+
+		'adduser + nome do usuário': Cria um novo usuário.
+
+		'adduser gpasswd -a +nome do usuário + nome do grupo': Adiciona um usuário já existente a o grupo desejado.
+
+		'gpasswd -d + nome do usuario + nome do grupo': Deleta o usuário desejado do grupo desejado.
+
+		'cat /etc/group': Lista todos os grupos do sistema.
+
+		'passwd root': Define a senha de acesso para o usuário root.
+
+		'su + nome do usuário': Altera o usuário da sessão atual.
+
+		'history': Mostra o histórico de tudo que fizemos no terminal
+
+		'history -c': Apaga o histórico
+
+		'alias': Dá um 'nickname' para um determinado comando. Exemplo: alias trc='traceroute'.
+
+		'nl + nome do arquivo': Exibe o arquivo e quantidade de linhas deste arquivo.
+
+		'wc -l + nome do arquivo': Exibe quantidade de linhas do arquivo, porém as linhas em branco também são contabilizadas.
+		
+    'wc -w + nome do arquivo': Exibe a quantidade de palavras contidas dentro do arquivo.
+
+		'wc -c + nome do arquivo': Exibe o tamanho do arquivo em bytes.		
+
+		'ls -F': Mostra os arquivos e diretórios com um '/' na frente de diretórios.
+
+		'cmp + nome do arquivo + nome do arquivo': Faz uma comparação entre dois ou mais arquivos.
+
+		'diff + nome do arquivo + nome do arquivo': Retorna qual a diferença entre dois ou mais arquivos .
+
+		'sort -n + nome do arquivo': Organiza a saída do arquivo em ordem numérica.
+
+		'last reboot': Retorna todas as informações de reinicialização do sistema.
+
+		'route -n': Mostra todas as tabelas de roteamento ip do kernel.
+
+		'time': Mostra o tempo de um processo.
+
+		'uptime': Mostra o tempo de execuçãoi do sistema. 
+
+		'init 0': Desliga a máquina.
+
+		'telinit 0': Desliga a máquina.
+
+		'halt': Desliga a máquina mas antes de desligar a máquina é pedido a senha do usuário para confirmar o comando.
+
+		'seq + intervalo numerico': Imprime na tela a sequencia numérica que desejarmos.
+
+		'whereis': Exibe o caminho do programa e seu manual.
+
+		'which': Exibe o caminho de um programa.
+
+		'logout': Finaliza a sessão.	
+
+		‘apt’: Gerenciador de pacotes.
+
+		‘apt install’: Instala Pacotes.
+
+		‘apt upgrade’: Atualiza Pacotes.
+
+		‘apt update && apt upgrade’: Atualiza o sistemas	
+
+		‘dpkg’: Gerenciador de Pacotes deb.
+
+		‘dpkg -i’: Instala um pacote deb.		
+
+		‘dpkg -r’: Remove um pacote rpm.
+
+		‘dpkg -l’: Informacoes do pacotes deb.
+
+		‘rpm’: Gerenciador de pacotes rpm.
+
+		‘rpm -ivh’: Instala um pacote rpm.
+
+		‘rpm -U’: Atualiza um apcote rpm.
+
+		‘rpm -e’: Remove um pacote rpm.
+
+		‘yum’: Gerenciador de pacotes rpm.
+
+		‘yum install’: instala um pacote rpm.
+
+		‘yum update’: Atualiza um pacote rpm.
+
+		‘yum remove’: Remove um pacote rpm.
